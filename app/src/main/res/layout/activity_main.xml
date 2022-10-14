@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/rock"
+    android:layout_marginHorizontal="150dp"
+    android:id="@+id/emberkep"
+    />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rock"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginVertical="200dp"
+        android:id="@+id/gepkep"
+        />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="470dp"
+        android:text="Kő"
+        android:id="@+id/ko"
+        />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginVertical="470dp"
+        android:text="Papír"
+        android:id="@+id/papir"
+        />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="290dp"
+        android:layout_marginVertical="470dp"
+        android:text="Olló"
+        android:id="@+id/ollo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="170dp"
+        android:layout_marginHorizontal="150dp"
+        android:text="A te választásod:"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="370dp"
+        android:layout_marginHorizontal="150dp"
+        android:text="A gép választása:"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="410dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="Eredmény:"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="410dp"
+        android:layout_marginHorizontal="100dp"
+        android:text="Ember:"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="410dp"
+        android:layout_marginHorizontal="500px"
+        android:text="Gép:"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="410dp"
+        android:layout_marginHorizontal="600px"
+        android:text="0"
+        android:id="@+id/gep"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="410dp"
+        android:layout_marginHorizontal="400px"
+        android:text="0"
+        android:id="@+id/ember"
+        />
+
+</RelativeLayout>
